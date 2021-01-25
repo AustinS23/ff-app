@@ -8,7 +8,7 @@ const Summary = ({ title, currentIndex, delta }: SummaryProps) => {
     return (
         <div className="w-100 d-flex flex-column justify-content-center align-items-center">
             <div className={clsx(
-                'rounded-circle d-flex flex-column justify-content-center align-items-center circle',
+                'rounded-circle d-flex flex-column justify-content-center align-items-center circle shadow-lg',
                 delta >= 0 ? 'bg-success increase' : 'bg-danger decrease'
             )}>
                 <div className="font-weight-bold current-index">
@@ -21,7 +21,7 @@ const Summary = ({ title, currentIndex, delta }: SummaryProps) => {
                     <span>{`${Math.abs(delta)} `}<i>last 30 days</i></span>
                 </div>
             </div>
-            <h3 className="mt-3 text-center px-3 text-black-50">{title}</h3>
+            <h4 className="mt-3 text-center px-3 pb-4 text-black-50">{title}</h4>
         </div>
     )
 };

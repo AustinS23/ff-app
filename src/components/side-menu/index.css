@@ -1,7 +1,7 @@
 .side-menu {
   background-color: #063647;
   font-size: 18px;
-  width: 220px;
+  min-width: 220px;
 }
 
 .header {
