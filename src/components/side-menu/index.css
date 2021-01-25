@@ -1,0 +1,35 @@
+.side-menu {
+  background-color: #063647;
+  font-size: 18px;
+  width: 220px;
+}
+
+.header {
+  padding: 1rem 0 0.5rem;
+}
+
+.logo {
+  height: 32px;
+  width: 24px;
+  margin: 0 15px;
+}
+
+.item > a {
+  display: inline-block;
+  color: white;
+  width: 100%;
+  padding: 0.5em 0 0.5em 1em;
+  opacity: 0.5;
+}
+
+.item > a:hover,
+.item > a.active {
+  text-decoration: none;
+  opacity: 0.8;
+  background-color: #129fd0;
+}
+
+.divider {
+  height: 1px;
+  background-color: #129fd0;
+}
