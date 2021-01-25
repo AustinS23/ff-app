@@ -1,0 +1,35 @@
+.current-index {
+  font-size: 40px;
+  color: white;
+}
+
+.circle {
+  height: 180px;
+  width: 180px;
+  position: relative;
+}
+
+.delta {
+  color: white;
+  opacity: 0.6;
+}
+
+.increase {
+  border: green solid 10px;
+}
+
+.decrease {
+  border: red solid 10px;
+}
+
+.increase:before, .decrease:before {
+    content: " ";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    bottom: -10px;
+    right: -10px;
+    border: white 5px solid;
+    border-radius: 50%;
+    box-shadow: 0 0 20px;
+}
