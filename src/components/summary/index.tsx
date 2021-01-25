@@ -1,11 +1,8 @@
 import clsx from "clsx";
+import { Summary as SummaryItem } from "../../service/models/summary";
 import './index.css';
 
-export type SummaryProps = {
-    title: string;
-    currentIndex: number;
-    delta: number;
-};
+export type SummaryProps = SummaryItem
 
 const Summary = ({ title, currentIndex, delta }: SummaryProps) => {
     return (
@@ -24,7 +21,7 @@ const Summary = ({ title, currentIndex, delta }: SummaryProps) => {
                     <span>{`${Math.abs(delta)} `}<i>last 30 days</i></span>
                 </div>
             </div>
-            <h3 className="mt-3">{title}</h3>
+            <h3 className="mt-3 text-center px-3 text-black-50">{title}</h3>
         </div>
     )
 };
