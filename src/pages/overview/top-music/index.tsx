@@ -3,9 +3,10 @@ import Card from "../../../components/card"
 import Dropdown, { DropdownItem } from "../../../components/dropdown";
 import Tab, { TabItem } from "../../../components/tab";
 import './index.css';
+import ArtistsTab from "./tabs/artists-tab";
 
 const tabs: TabItem[] = [
-    { name: 'Artists', content: () => <div>TODO</div> },
+    { name: 'Artists', content: () => <ArtistsTab /> },
     { name: 'Songs', content: () => <div>TODO</div> },
     { name: 'Moods', badge: 20, content: () => <div>TODO</div> },
 ];
