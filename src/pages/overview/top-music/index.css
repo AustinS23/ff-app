@@ -1,0 +1,15 @@
+.order-by {
+  font-size: 18px;
+  position: absolute;
+  right: 1.5rem;
+  top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .order-by {
+    position: relative;
+    top: 0rem;
+    left: 0rem;
+    margin-bottom: 1rem;
+  }
+}
