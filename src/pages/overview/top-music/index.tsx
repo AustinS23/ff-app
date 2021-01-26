@@ -32,6 +32,9 @@ const TopMusic = () => {
                     />
                 </div>
                 <Tab items={tabs} />
+                <button type="button" className="btn btn-info d-flex align-items-center rounded-pill px-4 ml-auto">
+                    View more music data <i className="material-icons md-12">keyboard_arrow_right</i>
+                </button>
             </Card>
 
         </section>
