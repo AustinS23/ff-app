@@ -1,0 +1,17 @@
+.tab-item {
+  font-size: 18px;
+  color: #479cba;
+  background-color: white;
+  border: none;
+  border-bottom: 1px solid transparent;
+  width: 150px;
+}
+
+.tab-item.active {
+  border-bottom-color: #479cba;
+  background-color: #eef6f9;
+}
+
+.tab-item:hover {
+  background-color: #eef6f9;
+}
