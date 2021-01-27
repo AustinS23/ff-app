@@ -8,7 +8,6 @@ import routes from "./routes";
 
 const App = () => {
 
-
 	return (
 		<>
 			<Router>
@@ -18,7 +17,7 @@ const App = () => {
 					<div className="flex-grow-1">
 						<Switch>
 							{routes.map(({ name, to, component: Page }) => {
-								if (!Page) return;
+								if (!Page) return null;
 								return <Route key={name} path={to} strict>
 									<Page />
 								</Route>
