@@ -47,6 +47,7 @@
   top: 0;
   height: 40px;
   background-color: #063647;
+  z-index: 10;
 }
 
 .menu-button {

@@ -23,7 +23,7 @@ const Overview = () => {
     return (
         <section>
             <h3>Overview</h3>
-            <div className="d-flex flex-md-row flex-sm-column align-items-start py-5">
+            <div className="d-flex flex-column flex-lg-row align-items-start py-5">
                 {summaries.map((summary) => (
                     <Summary key={summary.title} {...summary} />
                 ))
