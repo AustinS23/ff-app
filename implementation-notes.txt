@@ -1,0 +1,5 @@
+1. Side menu will be collapsed on mobile view
+This is to save the space on mobile device, and the side menu can be open by clicking the "burger" button on the header.
+
+2. Collecting user data alert is placed at the bottom of the page.
+This is to align the design with most of other websites, and avoid the content to block the header
